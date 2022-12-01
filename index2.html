@@ -1,106 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- SEO -->
-    <!-- <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <meta name="description" content=""> -->
-    
-    <!-- STYLESHEETS -->
-    <!-- <link rel="stylesheet" href="">     -->
-
-    <style type=text/css>   
-        body   
-        {  
-        height: 125vh;  
-        margin-top: 80px;  
-        padding: 30px;  
-        background-size: cover;  
-        font-family: sans-serif;  
-        }  
-        header {  
-        background-color: orange;  
-        position: fixed;  
-        left: 0;  
-        right: 0;  
-        top: 5px;  
-        height: 30px;  
-        display: flex;  
-        align-items: right;  
-        box-shadow: 0 0 25px 0 black;  
-        }  
-        header * {  
-        display: inline;  
-        }  
-        header li {  
-        margin: 20px;  
-        }  
-        header li a {  
-        color: blue;  
-        text-decoration: none;  
-        }  
-    </style>   
-
-    <!-- NAV BAR - logo#1 et 4 sections -->
-    <nav>
-        <div class="navbar-collapse collapse float-right nav-main-collapse submenu-dark">
-            <nav class="nav-main">
-                <div>
-                    <img src="images/Rectangle 1.png">
-                    <div class="container">
-                        <a class="logo float-left scrollTo" href="#top">
-                            <img src="images/logo_sublight.png">
-                        </a>
-                        <ul id="topMain" class="nav nav-pills nav-main nav-onepage">
-                            <li class="active">
-                                <a href="#">
-                                    OUR SERVICES
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    OUR PRODUCTS
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    ABOUT US
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    CONTACT US
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+        <!-- SEO -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <meta name="description" content="">
+        
+        <!-- STYLESHEETS -->
+        <link rel="stylesheet" href="css/main.css">  
+    <nav class="">
+        <div class="container hero-text">
+            <!-- <img src="images/Rectangle1.png" alt="No image found" width="100%"> -->
+            <div class="left" href="#top">
+                <img src="images/logo_sublight.png">
+            </div>
+            <ul id="topMain" class="nav nav-pills nav-main nav-onepage">
+                <li class="active">
+                    <a href="#">
+                        OUR SERVICES
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        OUR PRODUCTS
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        ABOUT US
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        CONTACT US
+                    </a>
+                </li>
+            </ul>
         </div>
     </nav>
 
-    <div class="fullwidthbanner" data-height="960" data-width="1440" position="absolute">
-        <img src="images/bkg_1 1.png"  alt="cover image"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-        <div class="tp-caption white_big skewfromleft tp-resizeme"
-            data-x="557"
-            data-y="653" 
-            data-speed="400"
-            data-start="1500"
-            data-easing="Power3.easeInOut"
-            data-splitin="words"
-            data-splitout="none"
-            data-elementdelay="0.1"
-            data-endelementdelay="0.1"
-            data-endspeed="600"
-            style="z-index: 2; color:#FFFFFF; font-size:51px; line-height:60px; font-weight:800; letter-spacing:0; text-shadow:none;">
-            OUR MISSION
+    <!-- <div class="hero-image">
+        <div class="hero-text">
+            <p> yo </p>
         </div>
-    </div>
+    </div> -->
 
-    <section id="image bouton - mission">
-        <img>
+    <section id="image - succes" class="flex-column">
+        <img src="images/bkg_1.png" width="100%">
         <!-- image bouton pesé -->
         <h2>
             OUR MISSION
@@ -114,22 +62,24 @@
 </head>
 
 <body>    
-    <section id="3 icones - success"> flex column
-        <img scr="images/Rectangle 2.png">
-        <p> flex column
-            texte
-        </p>
-        <span>
-            ligne
-        </span>
-        <div>flex row
-            <img>
-            <img>
-            <img>
+    <section id="3 icones - success"> 
+        <img src="images/Rectangle2.png" width="100%">
+        <div class="row">
+            <p class="flex-column">
+                ONE-STEP CLOSER TO SUCCESS
+            </p>
+            <span>
+                ligne
+            </span>
+            <div class="flex-row">
+                <img src="images/design.png">
+                <img src="images/build.png">
+                <img src="images/maintenance.png">
+            </div>
         </div>
     </section>
 
-    <section id="security"> flex row
+    <section id="security" class="flex-row row">
         <div>
             <h3>
                 2022 secure...
@@ -141,10 +91,14 @@
                 lorem ipsum
             </p>
         </div>
-        <img>
+        <div>
+            <img src="images/bkg_2.png">
+        </div> 
     </section> 
 
-    <section id="orange"> flex column
+
+    
+    <section id="orange" class="flex-column" > 
         <div>
             <h3>
                 need more ...
@@ -169,6 +123,8 @@
             </button>
         </div>
     </section>
+
+
 
     <section id="form"> flex column
         <div>
