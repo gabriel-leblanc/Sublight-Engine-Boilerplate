@@ -8,15 +8,16 @@
         <title>Sublight Engine</title>
         <meta name="description" content="" />
 
-        <!-- STYLESHEETS -->
+        <!-- STYLESHEETS AND JAVASCRIPT-->
         <link rel="stylesheet" href="css/main.css" />
+        <script type="text/javascript" src="main.js"></script>
         <!-- MAIN CONTENT -->  
     </head>
     
     <body class="body">
         <!-- NAV BAR -->
-        <header class="nav-main">
-            <div class="logo">
+        <header class="nav-main topnav">
+            <div class="logo active">
                 <img src="images/logo_sublight.svg" alt="logo" class="logo" />
             </div>
             <nav class="nav-text">   
@@ -24,15 +25,19 @@
                 <a href="#"> ABOUT US </a>
                 <a href="#"> CONTACT US </a>
             </nav>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </header>
         
         <div class="hero color-white center">
             <h1>OUR MISSION</h1>
             <a style="font-size:79px"><strong>TAKE YOU TO THE TOP</strong></a>
-            <img src="images/elevator button.svg" alt="elevator button" class="margin-bottom5" style="width=100%">
+            <img src="images/elevator button.svg" alt="elevator button" class="margin-bottom5">
         </div>
-        <!-- <why-us> -->
-        <section class="why-us">
+
+        <!-- ITEMS -->
+        <section class="items">
             <div class="flexcol center roboto color-white">
                 <h4>ONE-STOP FOR YOUR ELEVATOR NEEDS</h4>
                 <h2 style="margin:auto">ONE STEP CLOSER TO SUCCESS</h2>
@@ -57,7 +62,7 @@
             </div>
         </section>
 
-        <!-- <security> -->
+        <!-- SECURITY -->
         <section id="security" class="security flexrow">
             <div class="margin-left5 margin-right5">
                 <h4>2022 SECUREBOARDS SERIES</h4>
@@ -80,7 +85,7 @@
             </div>
         </section>
 
-        <!-- ORANGE - CATALOG -->
+        <!-- CATALOG -->
         <section class="catalog bkgcolor center flexcol">
             <div class="center flexcol color-white">
                 <h4 class="margin-top10 margin-bottom-auto">NEED MORE FOR YOUR FLEET OF ELEVATORS</h4>
@@ -90,7 +95,7 @@
                 </h2>
                 <img src="images/separator-black.png" alt="line" class="margin-bottom10" />
             </div>
-            <div class="flexrow imagesrow">
+            <div class="flexrow items imagesrow">
                 <img src="images/product_card_safety.png" alt="image safety"/>
                 <img src="images/product_card_cab.png" alt="image cab"/>
                 <img src="images/product_card_door.png" alt="image door"/>
@@ -105,7 +110,7 @@
         <!-- FORM -->
         <section id="form">
             <div  class="center">
-                <h4 class="service ">
+                <h4 class="form-text">
                     STAY IN TOUCH WITH OUR CUSTOMER SERVICE
                 </h4>
                 <h2 class="textorange">
@@ -115,7 +120,7 @@
             </div>
             <div>
                 <form>
-                    <div class="flexcol center">
+                    <div class="flexcol forcecol600 center">
                         <h6 class="text-left margin-bottom0" style="font-weight:lighter">NAME * <br>
                             <input class="box" placeholder="     Enter your full name">
                             </input>
@@ -126,7 +131,7 @@
                             </input>
                         </h6>
 
-                        <div class="flexrow margin-bottom0">
+                        <div class="flexrow forcecol600 margin-bottom0">
                             <h6 class="text-left" style="font-weight:lighter">PHONE NUMBER <br>
                                 <input class="halfbox margin-right26" placeholder="     0(000)000-0000">
                                 </input>
