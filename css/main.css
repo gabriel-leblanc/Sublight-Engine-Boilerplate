@@ -6,11 +6,7 @@
 }
 
 /* NAV-BAR AND MAIN IMAGE */
-.logo {
-	width: 100%;
-	/* padding-left: 20px; */
-	/* flex: 1; */
-}
+.logo {width: 100%;}
 .nav-main {
 	display: flex;
 	background: rgba(0, 0, 0, 0.69);
@@ -80,9 +76,7 @@ h5 {
 	margin-bottom: 0px;
 	font-weight: lighter;
 }
-h6 {
-	font-size: 15px;
-}
+h6 {font-size: 15px;}
 .roboto {
 	font-family: 'Roboto';
 	font-style: normal;
@@ -94,88 +88,37 @@ h6 {
 /* /H SPECS */
 /* ------------------------------------------------ */
 /* COLORS & MARGINS */
-.bkg-col-orange {
-	background-color: #ff7630;
-}
-.textorange {
-	color: #ff7630;
-}
-.color-white {
-	color: #ffffff;
-}
-.margin-left5 {
-	margin-left: 5px;
-}
-.margin-left10 {
-	margin-left: 10%;
-}
-.margin-right5 {
-	margin-right: 5%;
-}
-.margin-right10 {
-	margin-right: 10%;
-}
-.margin-right26 {
-	margin-right: 26px;
-}
-.margin-top0 {
-	margin-top: 0px;
-}
-.margin-top10 {
-	margin-top: 10%;
-}
-.margin-top20 {
-	margin-top: 20%;
-}
-.margin-top55 {
-	margin-top: 55%;
-}
-.margin-top70 {
-	margin-top: 70px;
-}
-.margin-top-down80 {
-	margin-top: 80px;
-	margin-bottom: 80px;
-}
-.margin-top-auto {
-	margin-top: auto;
-}
-.margin-bottom-30 {
-	margin-bottom: -30px;
-}
-.margin-bottom0 {
-	margin-bottom: 0px;
-}
-.margin-bottom5 {
-	margin-bottom: 5%;
-}
-.margin-bottom37 {
-	margin-bottom: 37px;
-}
-.margin-bottom10 {
-	margin-bottom: 10%;
-}
-.margin-bottom30 {
-	margin-bottom: 30%;
-}
-.margin-bottom-auto {
-	margin-bottom: auto;
-}
-.text-left {
-	text-align: left;
-}
-.text-indent {
-	text-indent: 15px;
-}
-.width100 {
-	width: 100%;
-}
+.bkg-col-orange {background-color: #ff7630;}
+.textorange {color: #ff7630;}
+.color-white {color: #ffffff;}
+.margin-left5px {margin-left: 5px;}
+.margin-left5 {margin-left: 5%;}
+.margin-left10 {margin-left: 10%;}
+.margin-right5 {margin-right: 5%;}
+.margin-right5px {margin-right: 5px;}
+.margin-right10 {margin-right: 10%;}
+.margin-right26 {margin-right: 26px;}
+.margin-top0 {margin-top: 0px;}
+.margin-top10 {margin-top: 10%;}
+.margin-top20 {margin-top: 20%;}
+.margin-top55 {margin-top: 55%;}
+.margin-top70 {margin-top: 70px;}
+.margin-top-down80 {margin-top: 80px; margin-bottom: 80px;}
+.margin-top-auto {margin-top: auto;}
+.margin-bottom-30 {margin-bottom: -30px;}
+.margin-bottom0 {margin-bottom: 0px;}
+.margin-bottom5 {margin-bottom: 5%;}
+.margin-bottom37 {margin-bottom: 37px;}
+.margin-bottom10 {margin-bottom: 10%;}
+.margin-bottom30 {margin-bottom: 30%;}
+.margin-bottom-auto {margin-bottom: auto;}
+.text-left {text-align: left;}
+.text-indent {text-indent: 15px;}
+.width100 {width: 100%;}
 /* /COLORS & MARGINS */
 /* ------------------------------------------------ */
 /* FLEX & ALIGN */
-.container {
-	display: flex;
-}
+.container {display: flex;}
 .flexcol {
 	display: flex;
 	flex-direction: column;
@@ -193,15 +136,11 @@ h6 {
 .space-evently {
 	justify-content: space-evently;
 }
-.text-right {
-	text-align: right;
-}
+.text-right {text-align: right;}
 /* /FLEX & ALIGN */
 /* ------------------------------------------------ */
 /* ITEMS */
-.items {
-	background-color: #383838;
-}
+.items {background-color: #383838;}
 /* /ITEMS */
 /* ------------------------------------------------ */
 /* SECURITY */
@@ -212,9 +151,7 @@ h6 {
 /* /SECURITY */
 /* ------------------------------------------------ */
 /* CATALOG */
-.width-flow {
-	display: inline;
-}
+.width-flow {display: inline;}
 /* /CATALOG */
 /* ------------------------------------------------ */
 /* FORM */
@@ -246,9 +183,7 @@ test .box {
 	width: 225px;
 	/* @media screen and (width: 498px); */
 }
-button:hover {
-	background-color: #292929;
-}
+button:hover {background-color: #292929;}
 .formdiv {
 	max-width: 498px;
 	align-self: center;
@@ -256,12 +191,8 @@ button:hover {
 /* /FORM */
 /* ------------------------------------------------ */
 /* FOOTER */
-.footer {
-	justify-content: space-between;
-}
-.fixed {
-	position: fixed;
-}
+.footer {justify-content: space-between;}
+.fixed {position: fixed;}
 #mobile-footer {
 	position: fixed;
 	bottom: 0;
@@ -288,57 +219,46 @@ button:hover {
 }
 /* /FOOTER */
 /* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
 /* MEDIA */
 @media screen and (max-width: 480px) {
 	/* When in mobile, just hide the nav text since we want the hamburger menu */
-	.nav-text {
-		display: none;
-	}
-
-	.halfbox {
+	.nav-text {display: none;}
+	/* .halfbox {
 		background-color: pink;
 		width: 100%;
 	}
-	.box {
-		max-width: 100%;
-	}
+	.box {max-width: 100%;} */
 
 	/* The background color is set to green */
-	body {
-		background-color: lightgreen;
-	}
-	.icons {
-		flex-direction: column;
-	}
-	.hide {
-		display: none;
-	}
+	/* body {background-color: lightgreen;} */
+	.icons {flex-direction: column;}
+	.hide {display: none;}
+    .forcecol480{
+        flex-direction: column;
+    }
 	.office {
 		flex-direction: column;
 		align-self: center;
 		text-align: center;
 	}
-	#can {
-		text-align: center;
-	}
-	.security {
-		flex-direction: column;
-	}
-	.copyright {
-		margin-bottom: 105px;
-	}
+	#can {text-align: center;}
+	.security {flex-direction: column;}
+	.copyright {margin-bottom: 105px;}
 	.margin-top70 {
 		margin-top: 10px;
 		margin-bottom: 65px;
 	}
+    .boxMobile {
+        width: 100%;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
-	body {
-		background-color: lightblue;
-	}
-	#mobile-footer {
-		display: none;
-	}
+	body {background-color: lightblue;}
+	#mobile-footer {display: none;}
 	/* .forcecol600 > .flexrow { */
 	/* flex-direction: column; */
 	/* width: 498px; */
@@ -346,27 +266,19 @@ button:hover {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-	body {
-		background-color: rgb(95, 95, 223);
-	}
+	body {background-color: rgb(95, 95, 223);}
 	.items > .flexcol {
 		/* flex-direction: column; */
 	}
 	.security {
 		/* flex-direction: column; */
 	}
-	#mobile-footer {
-		display: none;
-	}
+	#mobile-footer {display: none;}
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
-	body {
-		background-color: rgb(43, 122, 19);
-	}
-	#mobile-footer {
-		display: none;
-	}
+	body {background-color: rgb(43, 122, 19);}
+	#mobile-footer {display: none;}
 }
 /* /MEDIA */
 
