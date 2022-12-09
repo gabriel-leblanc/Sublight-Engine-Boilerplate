@@ -7,27 +7,52 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Sublight Engine</title>
         <meta name="description" content="" />
-
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
         <!-- STYLESHEETS AND JAVASCRIPT-->
         <link rel="stylesheet" href="css/main.css" />
-        <script type="text/javascript" src="main.js"></script>
         <!-- MAIN CONTENT -->
     </head>
 
     <body class="body">
         <!-- NAV BAR -->
-        <header class="nav-main topnav">
+        <header class="nav-main topnav headFix" id="myTopNav">
             <div class="logo active">
                 <img src="images/logo_sublight.svg" alt="logo" class="logo" />
             </div>
-            <nav class="nav-text">
-                <a href="#"> OUR PRODUCTS </a>
-                <a href="#"> ABOUT US </a>
-                <a href="#"> CONTACT US </a>
-            </nav>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
+            <div class="nav-text">
+                <!-- icone hamburger -->
+                <ul class="menu">
+                    <li>
+                        <a class="menuItem" href="#"> OUR PRODUCTS </a>
+                    </li>
+                    <li>
+                        <a class="menuItem" href="#"> ABOUT US </a>
+                    </li>
+                    <li>
+                        <a class="menuItem" href="#"> CONTACT US </a>
+                    </li>
+                </ul>
+                <button class="hamburger" id="hamburger">
+                    <!-- <img src="images/menu_white_24dp.svg" alt="menu" /> -->
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24px"
+                        viewBox="0 0 24 24"
+                        width="24px"
+                        fill="#FFFFFF"
+                    >
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+                        />
+                    </svg>
+                    <!-- <i class="menuIcon material-icons">menu</i> -->
+                    <!-- <i class="closeIcon material-icons">close</i> -->
+                </button>
+            </div>
         </header>
 
         <div class="hero color-white center">
@@ -364,4 +389,5 @@
         <!-- SCRIPTS -->
         <script src="" async defer></script>
     </body>
+    <script type="text/javascript" src="js/main.js"></script>
 </html>
