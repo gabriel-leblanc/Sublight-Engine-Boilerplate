@@ -1,5 +1,5 @@
 # Sublight-Engine-Boilerplate
-<<<<<<< HEAD
+
 =======
 
 ## Figma
