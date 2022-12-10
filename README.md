@@ -6,3 +6,6 @@ Figma is a platform where we had a template of a website to reproduce. The chall
 I had to be careful with the flex display; if a flex is inside another flex, things can get wrong quick. 
 
 After that, it was some fine tuning scaling all the font-sizes, all the margins and fields. 
+
+## Mobile display
+I added 3 media breakpoints, so there's 4 in total. The breakpoints are there to adapt the display in fonction of the screen size. 
