@@ -241,16 +241,15 @@
                     />
                 </div>
 
-                <div
-                    style="display: flex; flex-direction: column"
-                    class="bigScreen"
-                >
+                <div style="display: flex" class="bigScreen">
                     <!-- Phone -->
                     <div
+                        class="phone"
                         style="
                             display: flex;
                             margin-top: 20px;
                             flex-direction: column;
+                            flex: 1;
                         "
                     >
                         <p
@@ -269,7 +268,7 @@
                         />
                     </div>
                     <!-- Lang label -->
-                    <div>
+                    <div style="flex: 1">
                         <label
                             class="text-left"
                             for="contact_department"
@@ -284,7 +283,6 @@
                             >PREFERED LANGUAGE <br
                         /></label>
                         <select
-                            class=""
                             style="width: 100%; height: 46px; text-indent: 10px"
                         >
                             <option value="default">Select</option>
