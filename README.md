@@ -12,7 +12,3 @@ After that, it was some fine tuning scaling all the font-sizes, all the margins 
 ## Mobile display
 I added 3 media breakpoints, so there's 4 in total. The breakpoints are there to adapt the display in fonction of the screen size. 
 
-
-# NB
-Due to a unstable wifi that wouldn't let me push and merge, my project is on the `fixingBigForm` branch. Thank you.
->>>>>>> 3959895a19b977bfa952267abb86e2f9812ba0d7
